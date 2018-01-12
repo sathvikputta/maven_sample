@@ -4,10 +4,17 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
 		http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>clinic.programmming</groupId>
+  <groupId>com.anda.training</groupId>
   <artifactId>maven_sample</artifactId>
   <version>1.0</version>
   
+  <dependencies>
+  	<dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-lang3</artifactId>
+      <version>3.7</version>
+  	</dependency>
+ </dependencies>
   <build>
       <plugins>
         <plugin>
